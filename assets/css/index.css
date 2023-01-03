@@ -395,6 +395,7 @@ span.round-figure {
 }
 
 .world-bg-img {
+    cursor: pointer;
     background-image: linear-gradient(359.89deg,rgba(0,0,0,.74) 19.45%,rgba(0,0,0,.383063) 55.07%,rgba(0,0,0,0) 73.63%),url('https://preprodtsbstorage.blob.core.windows.net/cms/uploads/coffee_culture_blog_web1_c6e691b286.jpg');
     background-size: cover;
     height: 372px;
