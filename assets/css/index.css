@@ -566,6 +566,10 @@ footer {
     display: none;
 }
 
+.header-responsive {
+    display: none;
+}
+
 @media (max-width:1200px) {
     .green-panel {
         z-index: 1;
@@ -577,7 +581,8 @@ footer {
         background-color: #1e3932;
         color: #ffffff;
     }
-    .tp{
+
+    .tp {
         display: none;
     }
 
@@ -594,20 +599,33 @@ footer {
         color: #ffffff;
     }
 
-    header {
-        position: none;
-        background: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Welcome_Website_Amar_4a34d1827b.jpg")no-repeat;
-        background-size: contain;
-        height: 200px;
+    .header-responsive img {
+        /* background: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Welcome_Website_Amar_4a34d1827b.jpg")no-repeat; */
+        height: 100%;
+        width: 100%;
         background-attachment: fixed;
         background-position: center top;
     }
-
+    .header-responsive{
+        display: block;
+    }
+    .header-store-right{
+        top: 10px;
+        right: 20px;
+    }
+    .header-store-left{
+        top: 10px;
+        left: 20px;
+    }
     header nav {
         display: none;
     }
 
-    
+    footer {
+        display: none;
+    }
+
+
     .responsives {
         bottom: 0;
         left: 0;
@@ -615,11 +633,16 @@ footer {
         background-color: #f9f9f9;
         display: block;
     }
-    .res-menus{
+
+    .res-menus {
         margin-top: 20px;
     }
-    .res-menu{
+
+    .res-menu {
         margin-top: 20px;
+    }
+    .card-bottom {
+        left:1em ;
     }
 }
 
@@ -634,6 +657,10 @@ footer {
         color: #ffffff;
     }
 
+    footer {
+        display: none;
+    }
+
     .responsives {
         display: block;
     }
@@ -642,14 +669,14 @@ footer {
         display: none;
     }
 
-    header {
+    /* header {
         position: none !important;
         background: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Welcome_Website_Amar_4a34d1827b.jpg")no-repeat;
         background-size: contain;
         height: 200px;
         background-attachment: fixed;
         background-position: center top;
-    }
+    } */
 
     .custom-btn {
         width: 77px;
@@ -661,14 +688,28 @@ footer {
         color: #fff;
         border-radius: 20px;
     }
-    .detail{
+
+    .custom-btn2 {
+        width: 77px;
+        height: 32px;
+        padding: 0;
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid #ffffff;
+        color: #000;
+        border-radius: 20px;
+    }
+
+    .detail {
         margin-left: 3em;
         padding-top: 1em;
     }
-    .detail p{
+
+    .detail p {
         font-size: 11px;
     }
-    .order button{
+
+    .order button {
         height: 33px;
         width: 135px;
         font-size: 12px;
@@ -690,6 +731,7 @@ footer {
         display: none;
     }
 
+    /* 
     header {
         position: none;
         background: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Welcome_Website_Amar_4a34d1827b.jpg")no-repeat;
@@ -697,10 +739,12 @@ footer {
         height: 200px;
         background-attachment: fixed;
         background-position: center top;
-    }
+    } */
+
     .card_panel h3 {
         font-size: 15px;
     }
+
     .custom-btn {
         width: 77px;
         height: 32px;
@@ -711,14 +755,17 @@ footer {
         color: #fff;
         border-radius: 20px;
     }
-    .detail{
+
+    .detail {
         margin-left: 3em;
         padding-top: 1em;
     }
-    .detail p{
+
+    .detail p {
         font-size: 10px;
     }
-    .order button{
+
+    .order button {
         height: 33px;
         width: 135px;
         font-size: 12px;
