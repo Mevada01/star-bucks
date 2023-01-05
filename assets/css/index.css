@@ -202,6 +202,16 @@ nav {
     cursor: pointer;
 }
 
+.handipiked-item span img:hover {
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #00804c;
+    cursor: pointer;
+
+}
+
 .handipiked-item p {
     font-weight: 800;
     text-align: center;
@@ -606,17 +616,21 @@ footer {
         background-attachment: fixed;
         background-position: center top;
     }
-    .header-responsive{
+
+    .header-responsive {
         display: block;
     }
-    .header-store-right{
+
+    .header-store-right {
         top: 10px;
         right: 20px;
     }
-    .header-store-left{
+
+    .header-store-left {
         top: 10px;
         left: 20px;
     }
+
     header nav {
         display: none;
     }
@@ -641,8 +655,9 @@ footer {
     .res-menu {
         margin-top: 20px;
     }
+
     .card-bottom {
-        left:1em ;
+        left: 1em;
     }
 }
 
