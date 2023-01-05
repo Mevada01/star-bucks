@@ -13,7 +13,9 @@
 * {
     font-family: Helvetica;
 }
-
+body{
+    display: none;
+}
 a {
     text-decoration: none !important;
 }
